@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/namePlant" />
+
+    <EditText
+        android:id="@+id/editTextSpecies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/specie" />
+
+    <Switch
+        android:id="@+id/switchGreenhouse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/greenhousequestion" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saveplant" />
+
+    <Button
+        android:id="@+id/buttonViewPlants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/viewsave"
+        android:onClick="viewPlants" />
+</LinearLayout>

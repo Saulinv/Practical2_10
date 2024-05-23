@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Practical2_10</string>
+    <string name="greenhouse_plant">Greenhouse Plant</string>
+    <string name="save_plant">Save Plant</string>
+    <string name="view_plants">View Plants</string>
+    <string name="name">Имя</string>
+    <string name="species">Разновидность</string>
+    <string name="greenhouse">Тепличное растение</string>
+    <string name="viewsave">Посмотреть сохраненные</string>
+    <string name="saveplant">Сохранить растение</string>
+    <string name="greenhousequestion">Тепличное растение?</string>
+    <string name="specie">Разновидность</string>
+    <string name="namePlant">Название</string>
+</resources>
